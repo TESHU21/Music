@@ -48,6 +48,7 @@ const MyForm = () => {
         language: "",
       })
     );
+    dispatch(closeModal());
   };
   const handleCancel = (e) => {
     dispatch(closeModal());
