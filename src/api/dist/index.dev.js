@@ -9,7 +9,7 @@ var _axios = _interopRequireDefault(require("axios"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-_axios["default"].defaults.baseURL = "http://localhost:8000";
+_axios["default"].defaults.baseURL = "https://fake-songlist-api.onrender.com/";
 
 var getSongsAPI = function getSongsAPI() {
   return regeneratorRuntime.async(function getSongsAPI$(_context) {

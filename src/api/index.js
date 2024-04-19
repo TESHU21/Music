@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://fake-songlist-api.onrender.com/";
 
 export const getSongsAPI = async () => axios.get("/songs");
 
